@@ -15,7 +15,7 @@ function Checkout() {
                 <div className='co-cart'>
                    <div className='sec-devider'> 
                         <div className='cart-head'>
-                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjjJ5mvRgdFEAS99kGfBxcDu9dgM-QuQzQw&usqp=CAU'/>
+                            <img src=''/>
                             <h2>Your Cart</h2>
                         </div>
                         <div className='payment'>
@@ -36,7 +36,7 @@ function Checkout() {
                 </div>
             ) : (
             <div className='cono-cart'>
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNRWd8P71qGU8olEgBFI7Tb2XDV-mUk8JJg&usqp=CAU' />
+                <img src='' />
                 <h1>Your Cart is empty !</h1>
             </div>
                 )}
