@@ -4,14 +4,11 @@ import Checkoutitem from './Checkoutitem'
 import './Checkout.css'
 
 function Checkout() {
-
     const cart = useSelector(state => state.items)
-
     const cost = cart.map(item => item.cost)
     console.log(cost)
     const curcost = cost.reduce((prev,cur) => prev+cur,0)
     console.log(curcost)
-
     return (
         <div className='checkout'>
             {cart.length !== 0 ? (
