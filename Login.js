@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+/////login page
 function Login() {
     return (
        <div className='login'>
@@ -23,4 +23,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default Login; 
