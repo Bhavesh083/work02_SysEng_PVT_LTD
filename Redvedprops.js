@@ -1,10 +1,9 @@
 import React from 'react'
-import  '../styling/recved.css';
 
 function Redvedprops(props) {
     return (
         <div className='recved-card'>
-            <img className='rec-ved-img' src={props.img} />
+            <img className='rec-ved-img' src={} />
             <div className='recved-data'>
                 <div className='dt-icon'>
                     <img src={props.icon} />
