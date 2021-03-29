@@ -2,7 +2,6 @@ import { Button } from '@material-ui/core'
 import { Star } from '@material-ui/icons'
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import './Product.css';
 import { cartAdd } from './actions/cartAction'
 
 function Product({id,title,rating,cost,img}) {
