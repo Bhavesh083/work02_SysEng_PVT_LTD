@@ -1,7 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import Checkoutitem from './Checkoutitem'
-import './Checkout.css'
 
 function Checkout() {
     const cart = useSelector(state => state.items)
