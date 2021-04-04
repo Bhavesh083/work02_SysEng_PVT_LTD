@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles/Sendmail.css'
 import {useForm} from 'react-hook-form';
 import {useDispatch} from 'react-redux'
 import { closeSendMessage } from '../features/mailSlice';
