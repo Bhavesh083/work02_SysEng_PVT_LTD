@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles/Sidebar.css'
 import {useDispatch} from 'react-redux'
 import { openSendMessage } from '../features/mailSlice';
 
