@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import './styles/Maillist.css'
 import { useHistory } from 'react-router-dom'
 import { useDispatch } from 'react-redux';
 import { selectMail} from '../features/mailSlice'
