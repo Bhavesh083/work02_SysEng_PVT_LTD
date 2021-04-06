@@ -15,3 +15,5 @@ export const cartDel = (id) => ({
         id    : id,
     }
 })
+
+//u can add dif chars
